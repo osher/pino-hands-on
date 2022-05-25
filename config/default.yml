@@ -1,0 +1,9 @@
+calc:
+  precision: 3
+  maxArgs: 50
+
+logger:
+  levels: 
+    default: warn
+    calc:    info
+

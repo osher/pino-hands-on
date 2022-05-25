@@ -1,0 +1,17 @@
+#!/usr/bin/node
+const config = require('../lib/args')({ process });
+const logger = require('../lib/logger')(config.logger);
+logger.debug({ config }, 'initiated');
+
+const calc = require('../lib/calc')({ config, logger });
+const result = calc.exec(config.command, config.operands);
+
+logger.info({ result }, 'computed');
+
+/*
+process.on('SIGTERM', shutdown )
+process.on('SIGINT', shutdown )
+*/
+
+
+const SUT = require('../lib/logger')

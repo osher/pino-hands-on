@@ -1,0 +1,30 @@
+{
+  "name": "calc",
+  "version": "0.2.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "calcu": "bin/calc"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "config/default.yml"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.7",
+    "js-yaml": "^4.1.0",
+    "lodash.merge": "^4.6.2",
+    "minimist": "^1.2.5",
+    "pino": "^7.10.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "^7.6.1"
+  }
+}

@@ -1,0 +1,7 @@
+calc:
+  precision: CALC_PRECISION
+  maxArgs: CALC_MAX_ARGS
+
+logger:
+  levels: 
+    default: LOGGER_DEFAULT_LEVEL
